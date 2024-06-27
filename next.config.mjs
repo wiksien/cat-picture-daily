@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+  images: { unoptimized: true },
   // ... rest of the configuration.
 
   //Docker Setup
